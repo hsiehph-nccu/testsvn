@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: RCP
+Bundle-SymbolicName: RCP;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: rcp.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.apache.felix.scr,
+ org.eclipse.equinox.util,
+ org.eclipse.equinox.event
+Bundle-RequiredExecutionEnvironment: JavaSE-12
+Automatic-Module-Name: RCP
+Bundle-ActivationPolicy: lazy
